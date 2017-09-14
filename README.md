@@ -1,10 +1,3 @@
-# KO-DRUNKASH-WE
-SHE DRUNKAM MAIKA TI
-
-
-
-
-
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="interface.css" />
@@ -40,25 +33,27 @@ SHE DRUNKAM MAIKA TI
 			<table id="basicMages">	
 			
 		<tr>
-		<td><button onclick="buyOgunmage()">Train Fire Mage</button></td>
-		<td>Fire Mages: </td>
+		<td><button onclick="buyOgunmage()">Train Fire Mage</button> </td>
+		<td>Fire Mages: </td> 
 		<td class="number"><span id="ogunmage">0</span></td>
 		<td class="icon"><img src="Fire.png" class="icon icon-lg" /></td>
+
 		</tr>
-		
+				<td>Fire mage Cost: <span id="ogunmageCost">10</span></td>
 		<tr>
-		<td><button onclick="iceClick(1)">Train Ice Mage</button></td>
+		<td><button onclick="buyLedmage()">Train Ice Mage</button></td>
 		<td>Ice Mages: </td>
-		<td class="number"><span id="ice">0</span></td>
+		<td class="number"><span id="ledmage">0</span></td>
 		<td class="icon"><img src="Ice.png" class="icon icon-lg" /></td>
 		</tr>
-	
+				<td>Ice mage Cost: <span id="ledmageCost">10</span></td>
 		<tr>
-		<td><button onclick="earthClick(1)">Train Fire Mage</button></td>
-		<td>Fire Mages: </td>
-		<td class="number"><span id="earth">0</span></td>
+		<td><button onclick="buyZemqmage()">Train Earth Mage</button></td>
+		<td>Earth Mages: </td>
+		<td class="number"><span id="zemqmage">0</span></td>
 		<td class="icon"><img src="Earth.png" class="icon icon-lg" /></td>
 		</tr>
+				<td>Earth mage Cost: <span id="zemqmageCost">10</span></td>
 		</table>
 
 
@@ -81,4 +76,3 @@ SHE DRUNKAM MAIKA TI
 		
 	</body>
 </html>
-kurec
